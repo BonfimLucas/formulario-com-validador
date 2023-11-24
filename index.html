@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Cadastrar</title>
+</head>
+<body>
+    <main>
+        <div class="leftside">
+            <p id="textoreg">Registrar-se</p>
+            <form action="" class="formulario" method="post">
+
+                <span class="material-symbols-outlined">person</span>
+                <input type="text" id="nome" placeholder="Digite seu nome" class="nome validar">
+                <span class="material-symbols-outlined">person</span>
+                <input type="text" id="sobrenome" placeholder="Digite seu sobrenome"  autocomplete="email" class="sobrenome validar">
+
+                <span class="material-symbols-outlined">badge</span>
+                <input type="text" id="cpf" placeholder="Digite seu cpf"  class="cpf validar">
+                
+                <span class="material-symbols-outlined">
+                    account_circle
+                    </span>
+                <input type="text" id="usuario" placeholder="Digite seu nome de usuario"  class="usuario validar">
+
+                <span class="material-symbols-outlined">password</span>
+                <input type="password" id="senha" placeholder="Digite sua senha"  class="senha validar">
+
+                <span class="material-symbols-outlined">password</span>
+                <input type="password" id="repetir senha" placeholder="Digite novamente a sua senha"  class="repetir-senha validar">
+                
+                <a href="#" id="esqueceu">Esqueceu a senha?</a>
+                
+                <input type="submit" value="Enviar" id="btn">
+            </form>
+
+
+        </div>
+        <div class="rightside"></div>
+    </main>
+<script src="src/validadordeCPF.js"></script>
+<script src="src/script.js"></script>
+</body>
+</html>

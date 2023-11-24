@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter&family=Roboto:wght@400;700&display=swap');
+/*
+font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+main{
+    position: relative;
+    margin: auto;
+    top: 50px;
+    
+    width: 1000px;
+    display: flex;
+}
+
+.leftside{
+    background-color: rgb(14, 14, 14);
+    color: white;
+    width: 350px;
+    font-family: 'Inter', sans-serif;
+    box-shadow: -4px 5px 10px 5px rgba(0, 0, 0, 0.327);
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+form{
+    text-align: left;
+    margin: auto;
+    margin-left: 10px;
+    position: relative;
+    padding: 5px;
+    width: 200px;
+    top: 10px
+}
+
+input{
+    display: inline;
+    background-color: rgb(14, 14, 14);
+    border-color: #A6A6A6;
+    color: rgb(82, 123, 247);
+    margin: 10px;
+    font-size: 10px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #3939394a;
+    outline: none;
+    width: 200px;
+}
+
+input:hover{
+    border-color: rgb(22, 34, 70);
+    transition: 1s;
+}
+
+input:focus{
+    border-color: rgb(49, 91, 219);
+}
+
+#esqueceu{
+    font-size: 10px;
+    position: relative;
+    left: 13px;
+    color: rgb(49, 91, 219);
+}
+
+#esqueceu:hover{
+    color: rgb(82, 123, 247);
+    transition: 1s;
+}
+
+#btn{
+    background-color: rgb(13, 61, 205);
+    border-radius: 5px;
+    width: 120px;
+    position: relative;
+    left: -4px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    top: 15px;
+}
+
+#btn:hover{
+    background-color: rgb(11, 48, 159);
+    transition: 1s;
+}
+
+#jaPossui{
+    position: relative;
+    top: 50px;
+    font-size: 10px;
+    left: 30px;
+}
+
+
+.rightside{
+    color: white;
+    background-image: url('/src/img/sp.jpg');
+    filter: grayscale(100%); 
+    background-size: cover;
+    background-position: center;
+    width: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    box-shadow: 4px 5px 10px 5px rgba(0, 0, 0, 0.327);
+
+}
+
+.material-symbols-outlined{
+    color: #686868;
+    position: relative;
+    left: 230px;
+    font-size: 5px;
+    top: 43px;
+}
+
+.error-text{
+    left: 20px;
+    font-size: 10px;
+    color: rgba(255, 0, 0, 0.452);
+    height: 10px;
+}
